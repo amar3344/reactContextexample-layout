@@ -1,1 +1,12 @@
-/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.layout-container {
+  width: 100%;
+  background-color: #475569;
+  height: 150px;
+  padding: 0px 0px 0px 50px;
+}

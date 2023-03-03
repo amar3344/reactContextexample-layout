@@ -9,9 +9,11 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <div>
-        <ConfigurationController />
-        <Layout />
+      <div className="react-app">
+        <div className="configuration-controller">
+          <ConfigurationController />
+          <Layout />
+        </div>
       </div>
     )
   }

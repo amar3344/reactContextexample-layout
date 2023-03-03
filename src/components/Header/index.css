@@ -1,1 +1,16 @@
-/* Write your CSS here */
+.header {
+  text-align: center;
+  background-color: #cbd5e1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #475569;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}

@@ -1,1 +1,64 @@
-/* Write your CSS here */
+.body-container {
+  display: flex;
+  height: calc(100% - 160px);
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+.left-container {
+  background-color: #e2e8f0;
+  text-align: left;
+  width: 300px;
+  padding: 0px 10px;
+}
+
+.left-container p {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.left-container ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.left-container ul li {
+  margin: 0px;
+  padding: 0px;
+  color: #64748b;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.right-navbar {
+  background-color: #e2e8f0;
+  width: 300px;
+  padding: 0px 10px;
+}
+
+.right-navbar h1 {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.right-navbar p {
+  text-align: center;
+  width: 85%;
+  height: 80px;
+  border: 1px solid #64748b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #f1f5f9;
+  padding: 10px;
+  margin: 0px 5px;
+}
