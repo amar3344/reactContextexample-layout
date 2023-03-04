@@ -62,3 +62,17 @@
   padding: 10px;
   margin: 0px 5px;
 }
+
+.content-container h6 {
+  color: #475569;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.content-container p {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
